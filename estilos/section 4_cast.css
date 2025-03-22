@@ -1,0 +1,25 @@
+.cast{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+   
+}
+
+.cast__outies , .cast__innies{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 2.2rem;
+    margin: 4%;
+
+}
+
+
+.cimgs{
+    max-width: 80%;
+    width: auto;
+    height: auto;
+}

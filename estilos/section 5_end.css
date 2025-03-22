@@ -1,0 +1,18 @@
+.end{
+    padding: 5%;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.contactbutton{
+    text-decoration: none;
+    color: var(--azulescuro);
+}
+
+.contactbutton:hover{
+    color: var(--branco);
+    transition: color 0.15s;
+}

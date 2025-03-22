@@ -1,0 +1,49 @@
+.formfield{
+    max-width:fit-content;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: var(--cinzaclarinho);
+}
+
+
+input[type=text], input[type=email]{
+    border:solid var(--cinza2) 1px;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+textarea{
+    border:solid var(--cinza2) 1px;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    outline: none;
+}
+
+.button{
+    max-width: fit-content;
+    padding: 1.5%;
+    font-size: 1rem;
+    color: var(--azul);
+    background-color: var(--cinza2);
+    border-radius: 0.4rem;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.15) ;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--azul);
+    color: var(--branco);
+    box-shadow: 3px 3px 0 rgba(49, 69, 250, 0.15);
+}
+
+.button:active{
+    transform: scale(0.95);
+    box-shadow: 1px 1px 0 rgba(49, 69, 250, 0.1);
+}
+
+#subject{
+    margin-top: 0.5rem;
+}

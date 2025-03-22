@@ -1,0 +1,34 @@
+
+.foot {
+    background-color: var(--azul);
+    color: var(--cinzaclaro);
+    font-size: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.foottext{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.footcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 0.5rem;
+}
+
+.foot__link {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 1.5rem;
+    width: auto;
+    height: auto;
+}
+

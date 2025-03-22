@@ -1,0 +1,10 @@
+:root {
+    --azul: #2d3a48;
+    --cinza: #959796;
+    --cinza2: rgba(149, 151, 150, 0.2);
+    --azulescuro: #1e2d35;
+    --cinzaclaro: rgb(186, 200, 200);
+    --cinzaclarinho: rgba(186, 200, 200, 0.2);
+    --branco: #ffffff;
+    --fonteprincipal: Helvetica;
+}
